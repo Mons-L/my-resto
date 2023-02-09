@@ -3,11 +3,9 @@ import {Col, Row} from "react-bootstrap";
 
 const Home = () => {
     return(
-        <div className="myresto-home-background">
-            <Row className="align-items-center">
-                <h1>Un goût d'ailleurs</h1>
-            </Row>
-        </div>
+        <Row className="myresto-home-background align-items-center text-start">
+                <h1 className="ms-5 ">Un goût d'ailleurs</h1>
+        </Row>
 
     );
 }
